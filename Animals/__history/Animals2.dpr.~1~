@@ -1,4 +1,4 @@
-program Animals1;
+program Animals2;
 
 uses
   Forms,
@@ -8,7 +8,6 @@ uses
 {$R *.RES}
 
 begin
-  Application.Initialize;
   Application.CreateForm(TFormAnimals, FormAnimals);
   Application.Run;
 end.

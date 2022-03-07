@@ -8,19 +8,19 @@ uses
 
 type
   TFormAnimals = class(TForm)
-    LabelKind: TLabel;
-    BtnKind: TButton;
-    RadioAnimal: TRadioButton;
-    RadioDog: TRadioButton;
-    RadioCat: TRadioButton;
-    RadioElephant: TRadioButton;
+    LabelVoice: TLabel;
+    BtnVoice: TButton;
+    RbtnAnimal: TRadioButton;
+    RbtnDog: TRadioButton;
+    RbtnCat: TRadioButton;
+    RbtnElephant: TRadioButton;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
-    procedure BtnKindClick(Sender: TObject);
-    procedure RadioAnimalClick(Sender: TObject);
-    procedure RadioDogClick(Sender: TObject);
-    procedure RadioCatClick(Sender: TObject);
-    procedure RadioElephantClick(Sender: TObject);
+    procedure BtnVoiceClick(Sender: TObject);
+    procedure RbtnAnimalClick(Sender: TObject);
+    procedure RbtnDogClick(Sender: TObject);
+    procedure RbtnCatClick(Sender: TObject);
+    procedure RbtnElephantClick(Sender: TObject);
   private
     MyAnimal: TAnimal;
   end;
@@ -42,30 +42,30 @@ begin
   MyAnimal.Free;
 end;
 
-procedure TFormAnimals.BtnKindClick(Sender: TObject);
+procedure TFormAnimals.BtnVoiceClick(Sender: TObject);
 begin
-  LabelKind.Caption := MyAnimal.GetKind;
+  LabelVoice.Caption := MyAnimal.Voice;
 end;
 
-procedure TFormAnimals.RadioAnimalClick(Sender: TObject);
+procedure TFormAnimals.RbtnAnimalClick(Sender: TObject);
 begin
   MyAnimal.Free;
   MyAnimal := TAnimal.Create;
 end;
 
-procedure TFormAnimals.RadioCatClick(Sender: TObject);
+procedure TFormAnimals.RbtnCatClick(Sender: TObject);
 begin
   MyAnimal.Free;
   MyAnimal := TCat.Create;
 end;
 
-procedure TFormAnimals.RadioDogClick(Sender: TObject);
+procedure TFormAnimals.RbtnDogClick(Sender: TObject);
 begin
   MyAnimal.Free;
   MyAnimal := TDog.Create;
 end;
 
-procedure TFormAnimals.RadioElephantClick(Sender: TObject);
+procedure TFormAnimals.RbtnElephantClick(Sender: TObject);
 begin
   MyAnimal.Free;
   MyAnimal := TElephant.Create;
