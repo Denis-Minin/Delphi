@@ -7,7 +7,7 @@ type
   public
     constructor Create;
     function GetKind: string;
-    function Voice: string; virtual;
+    function Voice: string; virtual; abstract;
   private
     Kind: string;
   end;
@@ -16,18 +16,21 @@ type
   public
     constructor Create;
     function Voice: string; override;
+    function Eat: string; virtual;
   end;
 
   TCat = class (TAnimal)
   public
     constructor Create;
     function Voice: string; override;
+    function Eat: string; virtual;
   end;
 
   TElephant = class (TAnimal)
   public
     constructor Create;
     function Voice: String; override;
+    function Eat: string; virtual;
   end;
 
 implementation
@@ -45,15 +48,20 @@ begin
   GetKind := Kind;
 end;
 
-function TAnimal.Voice: string;
+{function TAnimal.Voice: string;        у абстрактного класса не может быть реализации!
 begin
   Voice := 'Voice of the animal';
-  PlaySound ('Anim.wav', 0, snd_Async);
-end;
+    PlaySound ('Anim.wav', 0, snd_Async);
+    end;}
 
 constructor TDog.Create;
 begin
   Kind := 'A dog';
+end;
+
+function TDog.Eat: string;
+begin
+  Eat := 'A bone, please!';
 end;
 
 function TDog.Voice: string;
@@ -69,6 +77,11 @@ begin
   Kind := 'A Cat'
 end;
 
+function TCat.Eat: string;
+begin
+  Eat := 'A mouse, please!';
+end;
+
 function TCat.Voice: string;
 begin
   Voice := 'Meo Meo';
@@ -80,6 +93,11 @@ end;
 constructor TElephant.Create;
 begin
   Kind := 'An Elephant'
+end;
+
+function TElephant.Eat: string;
+begin
+  Eat := 'A grass or hay, please!';
 end;
 
 function TElephant.Voice: String;
