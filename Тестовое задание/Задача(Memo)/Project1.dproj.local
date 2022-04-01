@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022.03.30 17:13:59.637,=D:\Bitbucket\MyProject\Unit1.pas</Transaction>
+    <Transaction>2022.03.30 17:18:19.050,C:\Users\user\Desktop\New folder (3)\Unit1.pas=D:\Bitbucket\MyProject\Unit1.pas</Transaction>
+    <Transaction>2022.03.30 17:18:19.050,C:\Users\user\Desktop\New folder (3)\Unit1.dfm=D:\Bitbucket\MyProject\Unit1.dfm</Transaction>
+    <Transaction>2022.03.30 17:18:20.301,C:\Users\user\Desktop\New folder (3)\Project1.dproj=D:\Bitbucket\MyProject\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
