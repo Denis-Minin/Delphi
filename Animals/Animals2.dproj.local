@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.957,C:\Users\user\Documents\GitHub\Delphi\Animals\Animals2.dproj=C:\Users\user\Documents\GitHub\Delphi\Animals\Animals2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.901,C:\Users\user\Documents\GitHub\Delphi\Animals\Animals2.dproj=D:\Загрузки\Delphi 7 для профессионалов (sample source)\03\Animals2\Animals2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.029,C:\Users\user\Documents\GitHub\Delphi\Animals\Animals2.dproj=C:\Users\user\Documents\GitHub\Delphi\Animals\Animals2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
