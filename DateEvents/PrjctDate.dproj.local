@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022.04.03 12:46:07.729,=D:\Bitbucket\MyProject\Unit1.pas</Transaction>
+    <Transaction>2022.04.03 12:46:53.855,=D:\Bitbucket\MyProject\Unit2.pas</Transaction>
+    <Transaction>2022.04.03 13:19:32.255,C:\Users\user\Documents\GitHub\Delphi\DateEvents\Dates.pas=D:\Bitbucket\MyProject\Unit2.pas</Transaction>
+    <Transaction>2022.04.03 13:21:10.005,C:\Users\user\Documents\GitHub\Delphi\DateEvents\DateF.pas=D:\Bitbucket\MyProject\Unit1.pas</Transaction>
+    <Transaction>2022.04.03 13:21:10.005,C:\Users\user\Documents\GitHub\Delphi\DateEvents\DateF.dfm=D:\Bitbucket\MyProject\Unit1.dfm</Transaction>
+    <Transaction>2022.04.03 13:29:49.660,C:\Users\user\Documents\GitHub\Delphi\DateEvents\PrjctDate.dproj=D:\Bitbucket\MyProject\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
